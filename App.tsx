@@ -1,11 +1,13 @@
 import React from 'react';
-import { StyleSheet, Text, View, Button, TouchableHighlight } from 'react-native';
+import { StyleSheet, Text, View, Button, TouchableHighlight, TouchableWithoutFeedback } from 'react-native';
 import FadeAnimation from './src/components/FadeAnimation/FadeAnimation';
+import TranslateAnimation from './src/components/TranslateAnimation/TranslateAnimation';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <FadeAnimation />
+      {/* <FadeAnimation /> */}
+      <TranslateAnimation/>
     </View>
   );
 }
