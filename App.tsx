@@ -4,6 +4,7 @@ import FadeAnimation from './src/components/FadeAnimation/FadeAnimation';
 import TranslateAnimation from './src/components/TranslateAnimation/TranslateAnimation';
 import ScaleAnimation from './src/components/ScaleAnimation/ScaleAnimation';
 import HeightAnimation from './src/components/HeightAnimation/HeightAnimation';
+import InterpolationAnimation from './src/components/InterpolationAnimation/InterpolationAnimation';
 
 export default function App() {
   return (
@@ -11,7 +12,8 @@ export default function App() {
       {/* <FadeAnimation /> */}
       {/* <TranslateAnimation/> */}
       {/* <ScaleAnimation/> */}
-      <HeightAnimation/>
+      {/* <HeightAnimation/> */}
+      <InterpolationAnimation/>
     </View>
   );
 }
