@@ -8,6 +8,7 @@ import InterpolationAnimation from './src/components/InterpolationAnimation/Inte
 import RotateInterpolation from './src/components/RotateInterpolation/RotateInterpolation';
 import WidthPercentage from './src/components/WidthPercentage/WidthPercentage';
 import EasingAnimation from './src/components/EasingAnimation/EasingAnimation';
+import SpringAnimation from './src/components/SpringAnimation/SpringAnimation';
 
 export default function App() {
   return (
@@ -19,7 +20,8 @@ export default function App() {
       {/* <InterpolationAnimation/> */}
       {/* <RotateInterpolation/> */}
       {/* <WidthPercentage/> */}
-      <EasingAnimation/>
+      {/* <EasingAnimation/> */}
+      <SpringAnimation/>
     </View>
   );
 }
