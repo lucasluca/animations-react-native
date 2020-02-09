@@ -5,6 +5,7 @@ import TranslateAnimation from './src/components/TranslateAnimation/TranslateAni
 import ScaleAnimation from './src/components/ScaleAnimation/ScaleAnimation';
 import HeightAnimation from './src/components/HeightAnimation/HeightAnimation';
 import InterpolationAnimation from './src/components/InterpolationAnimation/InterpolationAnimation';
+import RotateInterpolation from './src/components/RotateInterpolation/RotateInterpolation';
 
 export default function App() {
   return (
@@ -13,7 +14,8 @@ export default function App() {
       {/* <TranslateAnimation/> */}
       {/* <ScaleAnimation/> */}
       {/* <HeightAnimation/> */}
-      <InterpolationAnimation/>
+      {/* <InterpolationAnimation/> */}
+      <RotateInterpolation/>
     </View>
   );
 }
