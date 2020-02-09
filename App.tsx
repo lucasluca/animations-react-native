@@ -7,6 +7,7 @@ import HeightAnimation from './src/components/HeightAnimation/HeightAnimation';
 import InterpolationAnimation from './src/components/InterpolationAnimation/InterpolationAnimation';
 import RotateInterpolation from './src/components/RotateInterpolation/RotateInterpolation';
 import WidthPercentage from './src/components/WidthPercentage/WidthPercentage';
+import EasingAnimation from './src/components/EasingAnimation/EasingAnimation';
 
 export default function App() {
   return (
@@ -17,7 +18,8 @@ export default function App() {
       {/* <HeightAnimation/> */}
       {/* <InterpolationAnimation/> */}
       {/* <RotateInterpolation/> */}
-      <WidthPercentage/>
+      {/* <WidthPercentage/> */}
+      <EasingAnimation/>
     </View>
   );
 }
