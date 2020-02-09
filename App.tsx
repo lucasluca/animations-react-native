@@ -10,6 +10,7 @@ import WidthPercentage from './src/components/WidthPercentage/WidthPercentage';
 import EasingAnimation from './src/components/EasingAnimation/EasingAnimation';
 import SpringAnimation from './src/components/SpringAnimation/SpringAnimation';
 import EventAnimation from './src/components/EventAnimation/EventAnimation';
+import PanHandlerAnimation from './src/components/PanHandlerAnimation/PanHandlerAnimation';
 
 export default function App() {
   return (
@@ -23,7 +24,8 @@ export default function App() {
       {/* <WidthPercentage/> */}
       {/* <EasingAnimation/> */}
       {/* <SpringAnimation/> */}
-      <EventAnimation/>
+      {/* <EventAnimation/> */}
+      <PanHandlerAnimation/>
     </View>
   );
 }
