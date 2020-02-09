@@ -6,6 +6,7 @@ import ScaleAnimation from './src/components/ScaleAnimation/ScaleAnimation';
 import HeightAnimation from './src/components/HeightAnimation/HeightAnimation';
 import InterpolationAnimation from './src/components/InterpolationAnimation/InterpolationAnimation';
 import RotateInterpolation from './src/components/RotateInterpolation/RotateInterpolation';
+import WidthPercentage from './src/components/WidthPercentage/WidthPercentage';
 
 export default function App() {
   return (
@@ -15,7 +16,8 @@ export default function App() {
       {/* <ScaleAnimation/> */}
       {/* <HeightAnimation/> */}
       {/* <InterpolationAnimation/> */}
-      <RotateInterpolation/>
+      {/* <RotateInterpolation/> */}
+      <WidthPercentage/>
     </View>
   );
 }
